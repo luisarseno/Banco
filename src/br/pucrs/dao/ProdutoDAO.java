@@ -13,7 +13,7 @@ public class ProdutoDAO {
     public boolean cadastraProduto(Produto produto) throws ErroProdutoException{
         return true;
     }
-    public ArrayList<Produto> getListProdutos() throws ErroProdutoException{
+    public ArrayList<Produto> getListProdutos() throws ErroProdutoException {
         return null;
     }
     public Produto getProdutoByDesc(String desc) throws ErroProdutoException{
